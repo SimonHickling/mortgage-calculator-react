@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  --LightBlue: #e3f4fc;
+  --navyBlue: #133040;
+  --navyDarkBlue: #0e2431;
+  --navyLightBlue: #6f7b82;
+  --goldenYellow: rgba(217, 219, 50, 1);
+  --white: #ffffff;
+  --errorRed: #d73328;
+}
