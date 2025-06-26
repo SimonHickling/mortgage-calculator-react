@@ -290,6 +290,10 @@ hr {
     top: 20px;
     padding: 1rem;
   }
+
+  .submit {
+    justify-self: center;
+  }
 }
 
 @media (max-width: 650px) {
@@ -318,6 +322,9 @@ hr {
     grid-template-columns: 1fr;
     grid-template-rows: 20px 1fr 1fr 20px 1fr 1fr;
     grid-template-areas: "term-label " "term" "term-error" "interest-label" "interest" "interest-error";
+  }
+  .submit {
+    width: 100%;
   }
   .pre-results {
     top: 0;

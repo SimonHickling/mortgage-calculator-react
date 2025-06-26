@@ -89,7 +89,7 @@ const Calculator = () => {
                         <span className="required-error">This field is required</span>
                     </fieldset>
                     <button className="submit" type="button" id="submit" onClick={handleCalculation}>
-                        <img src="./public/images/icon-calculator.svg" alt="Calculator Icon"></img>
+                        <img src="./images/icon-calculator.svg" alt="Calculator Icon"></img>
                         Calculate Repayments
                     </button>
                 </form>
@@ -99,7 +99,7 @@ const Calculator = () => {
                 <div className="results-container">
                     <div className="pre-results">
                         <div className={`results-image-wrapper ${hideResultsText ? 'hidden' : ''}`}>
-                            <img src="./public/images/illustration-empty.svg" alt="Results Empty"></img>
+                            <img src="./images/illustration-empty.svg" alt="Results Empty"></img>
                         </div>
                         <h2 className={`results-header ${hideResultsText ? 'hidden' : ''}`}>Results shown here</h2>
                         <p className={`results-text ${hideResultsText ? 'hidden' : ''}`}>Complete the form and click "Calculate Repayments" to see what your monthly payments should be</p>
