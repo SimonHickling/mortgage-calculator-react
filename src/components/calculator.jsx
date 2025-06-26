@@ -71,13 +71,13 @@ const Calculator = () => {
                     <fieldset className="term-percent-field">
                         <label className="input-label term-label" for="term">Mortgage Term</label>
                         <div className="input-unit-container">
-                            <input className="term" type="number" id="term" value={term} onChange={(e) => setTerm(e.target.value)}></input>
+                            <input className="term" type="number" id="term" max={50} value={term} onChange={(e) => setTerm(e.target.value)}></input>
                             <span className="unit-container" id="unit">years</span><br />
                         </div>
                         <span className={`required-error term-error ${termError ? 'error' : ''}`}>This field is required</span>
                         <label className="input-label interest-label" for="term">Interest Rate</label>
                         <div className="input-unit-container">
-                            <input className="interest" type="number" id="interest" value={interest} onChange={(e) => setInterest(e.target.value)}></input>
+                            <input className="interest" type="number" id="interest" max={100} value={interest} onChange={(e) => setInterest(e.target.value)}></input>
                             <span className="unit-container" id="unit">%</span><br />
                         </div>
                         <span className={`required-error interest-error ${interestError ? 'error' : ''}`}>This field is required</span>

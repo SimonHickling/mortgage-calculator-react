@@ -21,6 +21,7 @@
   height: 667px;
   border-radius: 25px;
   background-color: var(--white);
+  box-shadow: 30px 30px 30px rgba(19, 48, 64, 0.2);
 }
 
 .input-container {
